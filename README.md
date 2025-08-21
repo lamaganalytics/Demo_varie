@@ -1,27 +1,22 @@
-# Shiny Morphological KPI Demo
+# Shiny Demo Apps and Multivariate Analysis Report
 
-This is a simple **Shiny** web application that simulates and visualizes morphological KPIs for quality monitoring in a production context.
 
-## ✨ Features
+This repository contains three main files demonstrating interactive analyses and predictive modeling:
 
-- Simulates production data with key morphological measurements.
-- Displays two control charts using **XmR methodology**:
-  - **Morphological_KPI_1**: .
-  - **Morphological_KPI_2**: .
-- Allows selection of **quality grade** (`Grade1` or `Grade2`) with different thresholds.
-- Adjustable time window for simulation (from 1 to 24 hours).
+- Morphological KPI Shiny (App.R)
+An online Shiny application for monitoring and controlling the morphology of foam during the production process.
 
-## 📦 Requirements
+- Ostwald Parameters & Viscosity Shiny App (Viscosity_melt_demo)
+An online Shiny application to estimate Ostwald parameters and viscosity from extrusion process data.
 
-- R (version ≥ 4.0)
-- R packages:
-  - `shiny`
-  - `shinyTime`
-  - `ggplot2`
-  - `dplyr`
-  - `tibble`
-  - `lubridate`
-  - `ggQC`
+- Multivariate Analysis Report (LASSO_report_demo PDF)
+A demonstration report showing how to extract multivariate correlations between input and output variables using LASSO regression, including predicted vs. real value plots and model evaluation metrics.
+
+These resources are intended to showcase interactive process monitoring and predictive modeling workflows using Shiny and R.
+
+
+
+
 
 ## 🚀 How to Run
 
